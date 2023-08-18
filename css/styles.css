@@ -393,15 +393,53 @@ p{
               }
             }
 
-
-
-
-
-        
-  
-
-           
-        
            /*  PRODUCTS END */
 
+
+
+           /*  PRODUCTS END */
+
+
 }  
+
+
+/*  SERVICES */
+
+.services-title {
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+  text-align: center ;
+}
+
+.service-card{
+  margin: 2rem 0;
+  background-color: var(--clr-grey-10);
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: var(--transition);
+}
+
+.service-card:hover{
+  /*  INCREASE THE SIZE WHEN YOU HOVER ON IT */
+  transform: scale(1.02);
+  /*  ////////////// */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.service-img{
+  height: 17rem;
+  object-fit: cover ;
+  /*  TO HAVE BORDER RADIO ON THE TOP ONLY */
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  /*  //////////////////////////////////// */
+}
+
+.service-info {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem 1rem;
+}
+
+
+
+ /*  SERVICES END */
