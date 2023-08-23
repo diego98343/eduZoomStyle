@@ -495,8 +495,25 @@ p{
 
 }
 
+ /*  CONTACT */
+   
+   .contact{
+    background-color: var(--clr-grey-10);
+   }
+   
+   .contact-form,
+   .contact-info{
+    margin: 1rem 0;
+   }
+
+   .contact-item{
+    margin-bottom: 1.75rem;
+   }
+
+   .contact-title{
+    color: var(--clr-primary);
+    font-weight: normal;
+   }
 
 
-
-
- /*  SERVICES END */
+  /*  CONTACT END */
